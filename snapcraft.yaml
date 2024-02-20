@@ -10,7 +10,6 @@ parts:
 pkillxx:
   plugin: python
   python-version: python3
-  source: https://github.com/ThankYouLinux/pkillxx.git
 
 apps:
 pkillxx:
