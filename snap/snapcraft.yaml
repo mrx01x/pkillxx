@@ -10,7 +10,7 @@ parts:
 pkillxx:
   plugin: python
   python-version: python2
-  source: https://github.com/ThankYouLinux/pkillxx.git
+  source: https://raw.githubusercontent.com/ThankYouLinux/pkillxx/main/pkillx
 
 apps:
 pkillxx:
