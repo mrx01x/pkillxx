@@ -2,19 +2,16 @@ name: pkillxx
 version: '1.0'
 summary: pkillxx
 description: |
-OfflineIMAP is software that downloads […]
+Welcome to prgram pkillxx
 
-confinement: devmode
 base: core22
 
 parts:
-offlineimap:
+pkillxx:
   plugin: python
   python-version: python3
   source: https://github.com/ThankYouLinux/pkillxx.git
-  stage-packages:
-    - python-six
 
 apps:
-offlineimap:
+pkillxx:
   command: bin/pkillxx
