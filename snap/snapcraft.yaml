@@ -1,6 +1,6 @@
 name: pkillxx
 version: '1.0'
-summary: pkillxx
+summary: pkillxx kokox
 description: |
 Welcome to prgram pkillxx
 
@@ -9,8 +9,8 @@ base: core22
 parts:
 pkillxx:
   plugin: python
-  python-version: python2
-  source: https://raw.githubusercontent.com/ThankYouLinux/pkillxx/main/pkillx
+  python-version: python3
+  source: https://github.com/ThankYouLinux/pkillxx.git
 
 apps:
 pkillxx:
