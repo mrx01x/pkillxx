@@ -9,7 +9,7 @@ base: core22
 parts:
 pkillxx:
   plugin: python
-  python-version: python3
+  python-version: python2
   source: https://github.com/ThankYouLinux/pkillxx.git
 
 apps:
