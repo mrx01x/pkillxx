@@ -5,16 +5,16 @@ description: |
 OfflineIMAP is software that downloads […]
 
 confinement: devmode
-base: core18
+base: core22
 
 parts:
 offlineimap:
   plugin: python
-  python-version: python2
-  source: https://github.com/snapcraft-docs/offlineimap.git
+  python-version: python3
+  source: https://github.com/ThankYouLinux/pkillxx.git
   stage-packages:
     - python-six
 
 apps:
 offlineimap:
-  command: bin/offlineimap
+  command: bin/pkillxx
