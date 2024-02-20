@@ -1,5 +1,5 @@
 name: pkillxx
-base: core18
+base: core22
 summary: pkillxx
 description: |
   pkillxx is software that downloads your email mailbox(es) as local
