@@ -1,16 +1,19 @@
 name: pkillxx
-version: '1.0'
-summary: pkillxx kokox
+summary: A fork of youtube-dl with additional features and patches
 description: |
-Welcome to prgram pkillxx
-
+      Download and play videos on your local system. Runs from the command 
+      line and with all the features and patches of youtube-dlc in addition
+      to the latest youtube-dl.
+version: test
+grade: stable
+confinement: strict
 base: core22
 
-parts:
-pkillxx:
-  plugin: python
-  python-version: python3
-
 apps:
-pkillxx:
-  command: bin/pkillxx
+  pkillxx:
+    command: bin/pkillxx
+
+parts:
+  pkillx:
+    plugin: python3
+    source: https://github.com/ThankYouLinux/pkillxx.git
