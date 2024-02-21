@@ -4,7 +4,8 @@ summary: pkillxx
 description: |
   pkillxx is software that downloads your email mailbox(es) as local
   Maildirs. pkillxx will synchronize both sides via IMAP.
-
+  
+grade: stable
 adopt-info: pkillxx
 confinement: strict
 
