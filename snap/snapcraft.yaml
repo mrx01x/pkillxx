@@ -1,4 +1,4 @@
-name: pkillx
+name: pkillxx
 summary: A fork of youtube-dl with additional features and patches
 description: |
       Download and play videos on your local system. Runs from the command 
@@ -10,11 +10,10 @@ confinement: strict
 base: core22
 
 apps:
-  pkillx:
-    command: bin/pkillx
-    plugs: [home, network, network-bind, removable-media]
+  pkillxx:
+    command: bin/pkillxx
 
 parts:
   pkillx:
-    plugin: python
+    plugin: python3
     source: https://github.com/ThankYouLinux/pkillxx.git
