@@ -1,6 +1,6 @@
 name: pkillxx
 base: core22
-summary: pkillxx
+summary: pkillxx kokox
 description: |
   pkillxx is software that downloads your email mailbox(es) as local
   Maildirs. pkillxx will synchronize both sides via IMAP.
@@ -18,3 +18,4 @@ parts:
     plugin: python
     python-version: python3
     source: https://github.com/ThankYouLinux/pkillxx.git
+    plugin: python3
