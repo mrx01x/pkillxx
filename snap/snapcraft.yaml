@@ -1,19 +1,20 @@
-name: pkillxx
-base: core22
-summary: pkillxx kokox
+name: pkillx
+summary: A fork of youtube-dl with additional features and patches
 description: |
-  pkillxx is software that downloads your email mailbox(es) as local
-  Maildirs. pkillxx will synchronize both sides via IMAP.
-  
+      Download and play videos on your local system. Runs from the command 
+      line and with all the features and patches of youtube-dlc in addition
+      to the latest youtube-dl.
+version: test
 grade: stable
+confinement: strict
+base: core22
 
 apps:
-  pkillxx:
-    command: bin/pkillxx
+  pkillx:
+    command: bin/pkillx
+    plugs: [home, network, network-bind, removable-media]
 
 parts:
-  pkillxx:
+  pkillx:
     plugin: python
-    python-version: python3
     source: https://github.com/ThankYouLinux/pkillxx.git
-    
