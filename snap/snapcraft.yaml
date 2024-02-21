@@ -6,8 +6,6 @@ description: |
   Maildirs. pkillxx will synchronize both sides via IMAP.
   
 grade: stable
-adopt-info: pkillxx
-confinement: strict
 
 apps:
   pkillxx:
@@ -18,4 +16,4 @@ parts:
     plugin: python
     python-version: python3
     source: https://github.com/ThankYouLinux/pkillxx.git
-    plugin: python3
+    
